@@ -1,4 +1,4 @@
-package controllers.core;
+package controllers.frontend;
 
 import javax.inject.Inject;
 import javax.inject.Named;

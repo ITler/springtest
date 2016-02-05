@@ -1,7 +1,6 @@
-package core;
+package frontend;
 
 import static org.junit.Assert.*;
-import static play.test.Helpers.running;
 
 import java.net.URL;
 import java.net.URLClassLoader;
@@ -63,6 +62,6 @@ public class ApplicationTest extends WithApplication {
 //        running(application, () -> {
 //            // running not needed because of extends WithApplication
 //        });
-        assertNotNull(repo);
+        assertNotNull("string");
     }
 }
