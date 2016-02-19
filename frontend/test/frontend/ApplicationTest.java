@@ -28,7 +28,7 @@ public class ApplicationTest extends WithApplication {
 
     @Inject Application application;
     
-    @BeforeClass
+//    @BeforeClass
     public static void classpath() {
         ClassLoader sysClassLoader = ClassLoader.getSystemClassLoader();
 
